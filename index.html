@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+<script src="JS.js"></script>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <h1><span class="highlight">ONG</span> Virtualidade</h1>
+                <img src='src/Imagens/virtualidade_logo.jpeg' alt="Projeto da ONG 3">
+
+<!--                <h1><span class="highlight">ONG</span> Virtualidade</h1> -->
             </div>
             <nav>
                 <ul>
@@ -26,8 +29,8 @@
 
     <section class="hero">
         <div class="container">
-            <h1>Juntos Podemos Fazer a Diferença</h1>
-            <p>Sua doação ajuda a transformar vidas e construir um futuro melhor</p>
+            <h1>Um tratamento atevés da Virtualidade</h1>
+            <p></p>
             <a href="#doar" class="btn-doe">DOE AGORA</a>
         </div>
     </section>
@@ -36,7 +39,7 @@
         <div class="container">
             <h2>Sobre Nós</h2>
             <p>Virtualidade é uma ONG que utiliza a realidade virtual a fim de promover bem estar a pacientes idosos e acamados utilizando aparelhos de realidade virtual gerando uma imersão 360° em um cenario escolhido pelo paciente.</p>
-            <p>Grande hospitais, como Mayo Clinic e York University ja vem aderindo essa prática. Nosso interesse é implementar essa pratica de forma gratuita no SUS. </p>
+            <p>Grande hospitais, como Mayo Clinic e York University ja vem aderindo essa prática e nós estamos implementando isso de graça para a população do SUS. </p>
         </div>
     </section>
 
@@ -63,49 +66,49 @@
         </div>
     </section>
 
+    <section class="galeria">
+        <div class="carrossel">
+            <!-- Item 1 -->
+            <div class="carrossel-item ativo">
+                <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="Projeto da ONG 1">
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="carrossel-item">
+                <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c" alt="Projeto da ONG 2">
+            </div>
+            
+            <!-- Item 3 -->
+            <div class="carrossel-item">
+                <img src="https://images.unsplash.com/photo-1545987796-200677ee1011" alt="Projeto da ONG 3">
+            </div>
+            
+            <!-- Controles do Carrossel -->
+            <button class="carrossel-controle anterior" aria-label="Foto anterior">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carrossel-controle proximo" aria-label="Próxima foto">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <!-- Indicadores -->
+            <div class="carrossel-indicadores">
+                <button class="indicador ativo" aria-label="Ir para foto 1"></button>
+                <button class="indicador" aria-label="Ir para foto 2"></button>
+                <button class="indicador" aria-label="Ir para foto 3"></button>
+            </div>
+        </div>
+    </section>
+
     <section id="doar" class="doar">
         <div class="container">
             <h2>Como Doar</h2>
             <div class="metodos-doacao">
                 <div class="metodo">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <h3>Transferência Bancária</h3>
-                    <p>Banco: [Nome do Banco]<br>
-                    Agência: [Número]<br>
-                    Conta: [Número]<br>
-                    CNPJ: [Número]</p>
-                </div>
-                <div class="metodo">
-                    <i class="fas fa-credit-card"></i>
-                    <h3>Cartão de Crédito</h3>
-                    <p>Doações seguras via PagSeguro ou PayPal</p>
-                    <button class="btn-pagamento">Doar com Cartão</button>
-                </div>
-                <div class="metodo">
                     <i class="fas fa-barcode"></i>
                     <h3>Pix</h3>
                     <p>Chave Pix: [chave@ong.org] ou CNPJ</p>
                     <button class="btn-pix">Copiar Chave</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="impacto">
-        <div class="container">
-            <h2>Nosso Impacto</h2>
-            <div class="estatisticas">
-                <div class="estatistica">
-                    <span class="numero">1,200+</span>
-                    <span class="descricao">Pessoas Ajudadas</span>
-                </div>
-                <div class="estatistica">
-                    <span class="numero">50+</span>
-                    <span class="descricao">Projetos Realizados</span>
-                </div>
-                <div class="estatistica">
-                    <span class="numero">R$ 250k</span>
-                    <span class="descricao">Arrecadados</span>
                 </div>
             </div>
         </div>
@@ -137,7 +140,6 @@
             </div>
             <div class="footer-legal">
                 <p>&copy; 2023 Nome da ONG. Todos os direitos reservados.</p>
-                <p>CNPJ: [Número do CNPJ]</p>
             </div>
         </div>
     </footer>
